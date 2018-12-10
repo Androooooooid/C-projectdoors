@@ -31,6 +31,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.ComponentList = new System.Windows.Forms.ListView();
             this.addButton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label4
@@ -72,11 +73,22 @@
             this.addButton.UseVisualStyleBackColor = true;
             this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(33, 18);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 21;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(557, 362);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.addButton);
             this.Controls.Add(this.ComponentList);
             this.Controls.Add(this.label4);
@@ -92,6 +104,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ListView ComponentList;
         private System.Windows.Forms.Button addButton;
+        private System.Windows.Forms.Button button1;
     }
 }
 

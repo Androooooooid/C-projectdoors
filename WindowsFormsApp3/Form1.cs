@@ -96,6 +96,12 @@ namespace WindowsFormsApp3
             }
             update();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            calculator opencal = new calculator();
+            opencal.ShowDialog();
+        }
     }
 }
 
